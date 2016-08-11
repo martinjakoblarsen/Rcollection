@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Hello, world!\n#\n# This is an example function named 'hello'\n# which prints 'Hello, world!'.\n#\n# You can learn more about package authoring with RStudio at:\n#\n#   http://r-pkgs.had.co.nz/\n#\n# Some useful keyboard shortcuts for package authoring:\n#\n#   Build and Reload Package:  'Ctrl + Shift + B'\n#   Check Package:             'Ctrl + Shift + E'\n#   Test Package:              'Ctrl + Shift + T'\n\n\nlibrary(digest)\n\ncpr2hash <- function(cpr)\n{\n  substr(toupper(digest(cpr, algo=\"sha1\")), 1, 4)\n}\n",
+    "created" : 1470916154609.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3003570381",
+    "id" : "F5686D4D",
+    "lastKnownWriteTime" : 1470916127,
+    "last_content_update" : 1470916127,
+    "path" : "~/GitHub/Rcollection/Rcollection/R/cpr2hash.R",
+    "project_path" : "R/cpr2hash.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
