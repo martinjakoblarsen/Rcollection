@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Hello, world!\n#\n# This is an example function named 'hello'\n# which prints 'Hello, world!'.\n#\n# You can learn more about package authoring with RStudio at:\n#\n#   http://r-pkgs.had.co.nz/\n#\n# Some useful keyboard shortcuts for package authoring:\n#\n#   Build and Reload Package:  'Ctrl + Shift + B'\n#   Check Package:             'Ctrl + Shift + E'\n#   Test Package:              'Ctrl + Shift + T'\n\nclipboard_cpr2hash <- function()\n{\n  writeClipboard(sapply(readClipboard(), cpr2hash))\n}\n",
+    "created" : 1470917115309.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2716588960",
+    "id" : "D6CF88D8",
+    "lastKnownWriteTime" : 1470917106,
+    "last_content_update" : 1470917106,
+    "path" : "~/GitHub/Rcollection/Rcollection/R/clipboard_cpr2hash.R",
+    "project_path" : "R/clipboard_cpr2hash.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
